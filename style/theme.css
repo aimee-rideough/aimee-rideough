@@ -4,9 +4,9 @@
 @import "libs/lightbox.css";
 
 /* Sections */
-@import "components/_header.css";
-@import "components/_body.css";
-@import "components/_footer.css";
+@import "header.css";
+@import "body.css";
+@import "footer.css";
 
 /* Sections */
-@import "components/_mobile.css"
+@import "mobile.css"
