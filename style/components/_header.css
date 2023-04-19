@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+}
+
+
+.nav-button {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 1px solid #444839;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-right: 2rem;
+  transition: 0.3s all ease-in-out;
+}
+
+.nav-button:hover {
+  background: #444839;
+}
+
+.nav-button>a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-button:hover a {
+  color: #F2F0EC;
+}
+
+.nav-button-filled {
+  background: #444839;
+}
+
+.nav-button-filled>a {
+  color: #F2F0EC;
+}

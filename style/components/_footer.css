@@ -1,0 +1,21 @@
+footer>ul {
+  display: flex;
+  list-style: none;
+}
+
+footer {
+  justify-self: flex-end;
+}
+
+footer>ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer>ul>li {
+  margin-left: 1rem;
+}
+
+footer>ul>li>a>i {
+  font-size: 32px;
+}

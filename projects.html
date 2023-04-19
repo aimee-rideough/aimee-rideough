@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>🙋🏻‍♀️ Aimee Rideough</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="./style/theme.css" />
+  <script src="https://kit.fontawesome.com/5f62ae9319.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+  <header>
+    <nav>
+      <a id="logo" href="/"><img src="./assets/logo.svg" alt="Aimee Rideough logo" /></a>
+      <ul>
+        <li class="nav-button"><a href="./about.html">About</a></li>
+        <li class="nav-button"><a href="./skills.html">Skills</a></li>
+        <li class="nav-button nav-button-filled"><a href="./projects.html">Projects</a></li>
+        <li class="nav-button"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="gallery">
+      <div class="gallery-item" onclick="openModal();currentSlide(1)">
+        <img src="./assets/gallery/1.jpg"
+          alt="An illustration of a white haired woman touching her hand to her face, illustrated in unnatural colours of blues and purples" />
+      </div>
+      <div class="gallery-item" onclick="openModal();currentSlide(2)">
+        <img src="./assets/gallery/2.jpg"
+          alt="A black and blue book over with a photograph of a run down appartment on the cover, featuring a bright red text for contrast" />
+      </div>
+      <div class="gallery-item" onclick="openModal();currentSlide(3)">
+        <img src="./assets/gallery/3.jpg"
+          alt="A green square with a cream arch, text says Daiya delicously dairy free, new york plant based cheesecake" />
+      </div>
+      <div class="gallery-item" onclick="openModal();currentSlide(4)">
+        <img src="./assets/gallery/4.jpg" alt="A neon green alien like creature on a black background" />
+      </div>
+      <div class="gallery-item" onclick="openModal();currentSlide(5)">
+        <img src="./assets/gallery/5.jpg"
+          alt="A square box with the text reality mint green tea on the front, with a pastel pink and blue background" />
+      </div>
+      <div class="gallery-item" onclick="openModal();currentSlide(6)">
+        <img src="./assets/gallery/6.jpg"
+          alt="A facedown book, showcasing a dark blue cover with an image of white ceramic cactuses on the front, text is eclectic ceramics plants and animals" />
+      </div>
+    </div>
+  </main>
+
+  <div id="lightbox" class="modal">
+    <div class="modal-header">
+      <p id="description"></p>
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+    </div>
+    <div class="modal-content">
+      <div class="lightbox-item">
+        <div class="index">1 / 6</div>
+        <img src="./assets/gallery/1.jpg"
+          alt="An illustration of a white haired woman touching her hand to her face, illustrated in unnatural colours of blues and purples" />
+      </div>
+
+      <div class="lightbox-item">
+        <div class="index">2 / 6</div>
+        <img src="./assets/gallery/2.jpg"
+          alt="A black and blue book over with a photograph of a run down appartment on the cover, featuring a bright red text for contrast" />
+      </div>
+
+      <div class="lightbox-item">
+        <div class="index">3 / 6</div>
+        <img src="./assets/gallery/3.jpg"
+          alt="A green square with a cream arch, text says Daiya delicously dairy free, new york plant based cheesecake" />
+      </div>
+
+      <div class="lightbox-item">
+        <div class="index">4 / 6</div>
+        <img src="./assets/gallery/4.jpg" alt="A neon green alien like creature on a black background" />
+      </div>
+
+      <div class="lightbox-item">
+        <div class="index">5 / 6</div>
+        <img src="./assets/gallery/5.jpg"
+          alt="A square box with the text reality mint green tea on the front, with a pastel pink and blue background" />
+      </div>
+
+      <div class="lightbox-item">
+        <div class="index">6 / 6</div>
+        <img src="./assets/gallery/6.jpg"
+          alt="A facedown book, showcasing a dark blue cover with an image of white ceramic cactuses on the front, text is eclectic ceramics plants and animals" />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div>
+
+  <footer>
+    <ul>
+      <li>
+        <a target="_blank" href="https://www.behance.net/aimeerideough">
+          <i class="fa-brands fa-square-behance"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.linkedin.com/in/aimee-rideough-416b22171/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://www.instagram.com/temmel.design/">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="./scripts/lightbox.js"></script>
+</body>
+
+</html>

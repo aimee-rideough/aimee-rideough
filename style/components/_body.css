@@ -1,0 +1,109 @@
+body.container {
+  background-color: #F2F0EC;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+body.container::after {
+  content: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 45%;
+}
+
+#logo>img {
+  display: block;
+  max-width: 90vw;
+}
+
+main>article {
+  width: 48%;
+  align-self: flex-start;
+}
+
+main>article>img {
+  display: block;
+  width: 60%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.skill-box {
+  text-align: center;
+}
+
+ul.skill-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+ul.skill-buttons>li {
+  width: 48%;
+  border: 1px solid #444839;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 0.5rem 0;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  overflow-x: scroll;
+}
+
+.gallery-item {
+  border-radius: 11px;
+  margin-right: 2rem;
+  cursor: pointer;
+  float: left;
+}
+
+.gallery-item>img {
+  width: 20vw;
+  border-radius: 11px;
+}
+
+.gallery-item:last-of-type {
+  margin-right: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #444839;
+  padding: 2rem;
+  border-radius: 11px;
+}
+
+.contact-form>input,
+.contact-form>textarea {
+  border-radius: 11px;
+  width: 100%;
+  background: none;
+}
+
+.contact-form>input[type=submit] {
+  width: 20%;
+  text-align: center;
+  padding: 0;
+  align-self: center;
+}
+
+.contact-form>textarea {
+  resize: none;
+  min-height: 100px;
+}

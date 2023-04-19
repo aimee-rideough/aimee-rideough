@@ -1,0 +1,12 @@
+/* Helpers & dependencies */
+@import "./libs/normalize.css";
+@import "./libs/skeleton.css";
+@import "./libs/lightbox.css";
+
+/* Sections */
+@import "./components/_header.css";
+@import "./components/_body.css";
+@import "./components/_footer.css";
+
+/* Sections */
+@import "./components/_mobile.css"
