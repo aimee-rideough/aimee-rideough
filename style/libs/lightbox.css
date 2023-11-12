@@ -57,6 +57,16 @@
   max-width: 90vw;
 }
 
+/* .lightbox-item>p.description {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 11px;
+  color: #fff;
+  width: 25%;
+  position: fixed;
+  bottom: 2.75rem;
+} */
+
 .prev,
 .next {
   cursor: pointer;
