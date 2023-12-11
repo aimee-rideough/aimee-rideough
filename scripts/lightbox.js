@@ -1,10 +1,16 @@
 const content = [
   'Phoebe Bridgers Digital Illustration - 2023',
-  'Publication Bookjacket Mockup - 2022', 
-  'Daiya Package Redesign - 2023', 
+  'Daiya Package Redesign - 2023',
   'Alien Poster Digital Illustration - 2022',
   'TeaBox Package Design Mockup - 2023',
-  'Art Rental Catalogue Mockup - 2022'
+  'The News Illustration - 2023',
+  'Self Promo Illustration - 2023',
+  'Elliot Digital Illustration - 2023',
+  'Almonte - 2022',
+  'Greenhouse 1 - 2022',
+  'Greenhouse 2 - 2022',
+  'Kosas Product Photography - 2022',
+  'Thick Skull Illustration - 2023',
 ];
 
 function openModal() {
